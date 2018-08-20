@@ -1,0 +1,113 @@
+{
+    "showCollapse": true,
+    "inlineType": true,
+    "queryData": {
+        "rows": 4,
+        "items": [
+            {
+                "labelName": "活动名称",
+                "labelValue": "",
+                "labelKey": "name",
+                "type": "input",
+                "layout": {
+                    "row": 1,
+                    "col": 12
+                }
+            },
+            {
+                "labelName": "活动区域",
+                "labelValue": "",
+                "labelKey": "region",
+                "type": "select",
+                "options": [
+                    {
+                        "label": "区域一",
+                        "key": "001",
+                        "value": "24"
+                    },
+                    {
+                        "label": "区域二",
+                        "key": "002",
+                        "value": "25"
+                    }
+                ],
+                "layout": {
+                    "row": 1,
+                    "col": 12
+                }
+            },
+            {
+                "labelName": "活动时间",
+                "labelValue": "",
+                "labelKey": "time",
+                "type": "DatePicker",
+                "layout": {
+                    "row": 2,
+                    "col": 12
+                }
+            },
+            {
+                "labelName": "即时配送",
+                "labelValue": "",
+                "labelKey": "delivery",
+                "type": "switch",
+                "layout": {
+                    "row": 2,
+                    "col": 12
+                }
+            },
+            {
+                "labelName": "活动性质",
+                "labelValue": [],
+                "labelKey": "activeType",
+                "type": "checkbox",
+                "checkboxes": [
+                    {
+                        "label": "美食/餐厅线上活动"
+                    },
+                    {
+                        "label": "地推活动"
+                    },
+                    {
+                        "label": "线下主题活动"
+                    },
+                    {
+                        "label": "单纯品牌曝光"
+                    }
+                ],
+                "layout": {
+                    "row": 3,
+                    "col": 12
+                }
+            },
+            {
+                "labelName": "特殊资源",
+                "labelValue": "",
+                "labelKey": "resource",
+                "type": "radio",
+                "radios": [
+                    {
+                        "label": "线上品牌商赞助"
+                    },
+                    {
+                        "label": "线下场地免费"
+                    }
+                ],
+                "layout": {
+                    "row": 3,
+                    "col": 12
+                }
+            },
+            {
+                "labelName": "活动形式",
+                "labelValue": "",
+                "labelKey": "desc",
+                "type": "textarea",
+                "layout": {
+                    "row": 4,
+                    "col": 12
+                }
+            }
+        ]
+    }
+}
