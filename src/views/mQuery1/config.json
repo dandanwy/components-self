@@ -48,7 +48,7 @@
             },
             {
                 "labelName": "即时配送",
-                "labelValue": "",
+                "labelValue": false,
                 "labelKey": "delivery",
                 "type": "switch",
                 "layout": {
