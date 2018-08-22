@@ -1,0 +1,44 @@
+{
+    "toolbar":{
+        "buttons": [
+            {
+                "icon": "el-icon-plus",
+                "label": "新 建",
+                "event": "on-add"
+            },
+            {
+                "icon": "el-icon-edit",
+                "label": "编 辑",
+                "event": "on-edit"
+              },
+              {
+                "icon": "el-icon-delete",
+                "label": "删 除",
+                "event": "on-delete"
+              },
+              {
+                "icon": "el-icon-view",
+                "label": "查 看",
+                "event": "on-view"
+              }
+        ],
+        "miniSearch": {
+            "richInput": {
+                "width": "400px",
+                "options": {
+                    "width": "120px",
+                    "items": [
+                        {
+                        "label": "服务器",
+                        "value": "server"
+                        },
+                        {
+                        "label": "环境名称",
+                        "value": "envName"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

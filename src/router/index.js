@@ -4,6 +4,7 @@ import Index from '@/components/Index'
 import CountUp from '@/components/countup'
 import Grid from '@/router/grid.vue'
 import mQuery1 from '@/views/mQuery1'
+import mToolbar1 from '@/views/mToolbar1'
 
 Vue.use(Router)
 
@@ -29,5 +30,10 @@ export default new Router({
       name:'mQuery1',
       component: mQuery1
     },
+    {
+      path: '/mtoolbar1',
+      name:'mToolbar1',
+      component: mToolbar1
+    }
   ]
 })

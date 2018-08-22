@@ -6,6 +6,7 @@
         <li><router-link to="/countup">countup</router-link></li>
         <!-- <li><router-link to="/grid">grid</router-link></li> -->
         <li><router-link to="/mquery1">mQuery1</router-link></li>
+        <li><router-link to="/mtoolbar1">mToolbar1</router-link></li>
       </ul>
     </div>
     <router-view></router-view>
