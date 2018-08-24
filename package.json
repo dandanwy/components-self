@@ -19,6 +19,7 @@
     "less": "^3.8.0",
     "less-loader": "^4.1.0",
     "vue": "^2.5.2",
+    "vue-drag-tree": "^1.1.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

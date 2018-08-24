@@ -7,6 +7,11 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
+import VueDragTree from 'vue-drag-tree'
+import 'vue-drag-tree/dist/vue-drag-tree.min.css'
+
+Vue.use(VueDragTree)
+
 Vue.use(ElementUI);
 
 Vue.config.productionTip = false
