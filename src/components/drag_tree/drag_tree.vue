@@ -32,6 +32,29 @@ export default {
                 this.data = Object.assign(this.data, newValue);
             }
         }
+    },
+    methods: {
+        emitCurNodeClicked(model, component) {
+        this.$emit('current-node-clicked', model, component);
+        },
+        emitDrag(model, component, e) {
+        this.$emit('drag', model, component, e);
+        },
+        emitDragEnter(model, component, e) {
+        this.$emit('drag-enter', model, component, e);
+        },
+        emitDragLeave(model, component, e) {
+        this.$emit('drag-leave', model, component, e);
+        },
+        emitDragOver(model, component, e) {
+        this.$emit('drag-over', model, component, e);
+        },
+        emitDragEnd(model, component, e) {
+        this.$emit('drag-end', model, component, e);
+        },
+        emitDrop(model, component, e) {
+        this.$emit('drop', model, component, e);
+        }
     }
 }
 </script>

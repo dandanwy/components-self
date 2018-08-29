@@ -1,5 +1,5 @@
 <template>
-    <drag-tree :data="data" :allowDrag='allowDrag' :allowDrop='allowDrop' :defaultText='"New Node"'></drag-tree>
+    <drag-tree :data="data" :allowDrag='allowDrag' :allowDrop='allowDrop' :defaultText='"New Node"' @current-clicked='curNodeClicked' @drag="dragHandler" @drag-enter="dragEnterHandler" @drag-leave="dragLeaveHandler" @drag-over="dragOverHandler" @drag-end="dragEndHandler" @drop="dropHandler"></drag-tree>
     <!-- <vue-drag-tree :data='data' :allowDrag='allowDrag' :allowDrop='allowDrop' :defaultText='"New Node"' @current-clicked='curNodeClicked' @drag="dragHandler" @drag-enter="dragEnterHandler" @drag-leave="dragLeaveHandler" @drag-over="dragOverHandler" @drag-end="dragEndHandler" @drop="dropHandler">
     </vue-drag-tree> -->
 </template>
