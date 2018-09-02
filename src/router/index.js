@@ -6,6 +6,7 @@ import Grid from '@/router/grid.vue'
 import mQuery1 from '@/views/mQuery1'
 import mToolbar1 from '@/views/mToolbar1'
 import dragTree from '@/views/drag-tree'
+import controller from '@/views/dashboard/Index'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/dragTree',
       name:'dragTree',
       component: dragTree
+    },
+    {
+      path: '/controller',
+      name:'controller',
+      component: controller
     }
   ]
 })

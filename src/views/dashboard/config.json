@@ -1,0 +1,175 @@
+{
+    "mySource": {
+        "title": "我的资源",
+        "items": [
+            {
+                "left": {
+                    "icon": "/ai/face2.jpg",
+                    "label": "集群"
+                },
+                "right": {
+                    "num": "2"
+                }
+            },
+            {
+                "left": {
+                    "icon": "/ai/face2.jpg",
+                    "label": "集群"
+                },
+                "right": {
+                    "num": "2"
+                }
+            },
+            {
+                "left": {
+                    "icon": "/ai/face2.jpg",
+                    "label": "集群"
+                },
+                "right": {
+                    "num": "2"
+                }
+            },
+            {
+                "left": {
+                    "icon": "/ai/face2.jpg",
+                    "label": "集群"
+                },
+                "right": {
+                    "num": "2"
+                }
+            },
+            {
+                "left": {
+                    "icon": "/ai/face2.jpg",
+                    "label": "集群"
+                },
+                "right": {
+                    "num": "2"
+                }
+            },
+            {
+                "left": {
+                    "icon": "/ai/face2.jpg",
+                    "label": "集群"
+                },
+                "right": {
+                    "num": "2"
+                }
+            },
+            {
+                "left": {
+                    "icon": "/ai/face2.jpg",
+                    "label": "集群"
+                },
+                "right": {
+                    "num": "2"
+                }
+            },
+            {
+                "left": {
+                    "icon": "/ai/face2.jpg",
+                    "label": "集群"
+                },
+                "right": {
+                    "num": "2"
+                }
+            }
+        ]
+    },
+    "guide": {
+        "title": "典型场景指导",
+        "tips": "使用微服务开发：首先应下载起步代码，下载后根据指引进行服务开发、服务上线及服务运维。",
+        "modules": [
+            {
+                "type": true,
+                "label": "下载起步代码"
+            },
+            {
+                "type": true,
+                "label": "服务开发",
+                "childrens":[
+                    {
+                        "type": true,
+                        "label": "微服务",
+                        "childrens": [
+                            {
+                                "type": false,
+                                "label": "分类"
+                            },
+                            {
+                                "type": false,
+                                "label": "字典"
+                            },
+                            {
+                                "type": false,
+                                "label": "权限"
+                            }
+                        ]
+                    },
+                    {
+                        "type": true,
+                        "label": "中间件",
+                        "childrens": [
+                            {
+                                "type": false,
+                                "label": "MQ"
+                            },
+                            {
+                                "type": false,
+                                "label": "Kafaka"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": true,
+                "label": "服务上线",
+                "childrens": [
+                    {
+                        "type": true,
+                        "label": "配置中心"
+                    }
+                ]
+            },
+            {
+                "type": true,
+                "label": "服务运维",
+                "childrens":[
+                    {
+                        "type": true,
+                        "label": "服务治理",
+                        "childrens": [
+                            {
+                                "type": false,
+                                "label": "熔断"
+                            },
+                            {
+                                "type": false,
+                                "label": "容错"
+                            },
+                            {
+                                "type": false,
+                                "label": "降级"
+                            }
+                        ]
+                    },
+                    {
+                        "type": true,
+                        "label": "API网关",
+                        "childrens": [
+                            {
+                                "type": false,
+                                "label": "灰度"
+                            },
+                            {
+                                "type": false,
+                                "label": "流量"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
