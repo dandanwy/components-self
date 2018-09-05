@@ -7,6 +7,9 @@ import mQuery1 from '@/views/mQuery1'
 import mToolbar1 from '@/views/mToolbar1'
 import dragTree from '@/views/drag-tree'
 import controller from '@/views/dashboard/Index'
+import animate1 from '@/views/animate/list1'
+import echarts from '@/views/echarts/demo'
+import paper from '@/views/paper'
 
 Vue.use(Router)
 
@@ -46,6 +49,21 @@ export default new Router({
       path: '/controller',
       name:'controller',
       component: controller
+    },
+    {
+      path: '/animate1',
+      name:'animate1',
+      component: animate1
+    },
+    {
+      path: '/echarts',
+      name:'echarts',
+      component: echarts
+    },
+    {
+      path: '/paper',
+      name:'paper',
+      component: paper
     }
   ]
 })
