@@ -7,8 +7,22 @@
             </div>
         </div>
         <div class='treeMargin' v-show="open" v-if="isFolder">
-            <item v-for="item2 in model.children" :allowDrag='allowDrag' :allowDrop='allowDrop' :depth='increaseDepth' :model="item2" :key='item2.id' :defaultText='defaultText'>
-            </item>
+            <!-- <item v-for="item2 in model.children" 
+             :allowDrag='allowDrag'
+             :allowDrop='allowDrop'
+             :depth='increaseDepth'
+             :model="item2" 
+             :key='item2.id'
+             :defaultText='defaultText'>
+            </item> -->
+            <DragNode v-for="item2 in model.children" 
+             :allowDrag='allowDrag'
+             :allowDrop='allowDrop'
+             :depth='increaseDepth'
+             :model="item2" 
+             :key='item2.id'
+             :defaultText='defaultText'>
+            </DragNode>
         </div>
     </div>
 </template>
@@ -175,7 +189,7 @@ export default {
         }
     },
     beforeCreate() {
-        this.$options.components.item = require('./drag_node.vue')
+        this.$options.components.item = require('./drag_node.vue');
     },
     created() {
         rootTree = findRoot(this)

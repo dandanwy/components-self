@@ -1,0 +1,67 @@
+{
+    "options": [
+        {
+            "id": "pie-app",
+            "legend": {
+                "orient": "vertical",
+                "right": 10,
+                "top": "center"
+            },
+            "series": [
+                {
+                    "name": "APP",
+                    "type": "pie",
+                    "hoverAnimation": false,
+                    "radius": ["50%", "70%"],
+                    "label": {
+                        "normal": {
+                            "show": false,
+                            "textStyle": {
+                                "fontSize": "20",
+                                "fontWeight": "bold"
+                            },
+                            "position": "center"
+                        }
+                    },
+                    "data":[
+                        {"value":3, "name":"香蕉"}
+                    ]
+                }
+            ],
+            "zenderStyle": {
+                
+            }
+        },
+        {
+            "id": "pie-eg",
+            "legend": {
+                "orient": "vertical",
+                "right": "10",
+                "top": "center"
+            },
+            "series": [
+                {
+                    "name": "eg",
+                    "type": "pie",
+                    "hoverAnimation": false,
+                    "radius": ["50%", "70%"],
+                    "label": {
+                        "normal": {
+                            "show": false,
+                            "textStyle": {
+                                "fontSize": "20",
+                                "fontWeight": "bold"
+                            },
+                            "position": "center"
+                        }
+                    },
+                    "data":[
+                        {"value":3, "name":"香蕉"},
+                        {"value":12, "name":"苹果"},
+                        {"value":12, "name":"梨子"}
+                    ]
+                }
+            ]
+        }
+    ]
+}

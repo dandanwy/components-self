@@ -1,7 +1,7 @@
 <template>
     <div>
         <div v-for='(item, index) in newData' :key="index">
-            <drag-node :model='item'></drag-node>
+            <drag-node :model='item' :allowDrag='allowDrag' :allowDrop='allowDrop' :depth='increaseDepth' :defaultText='defaultText' :key='index'></drag-node>
         </div>
     </div>
 </template>
@@ -13,9 +13,29 @@ export default {
         dragNode
     },
     props: {
-        data: Array
+        data: Array,
+        allowDrag: {
+        type: Function,
+        default: () => true
+        },
+        allowDrop: {
+        type: Function,
+        default: () => true
+        },
+        defaultText: {
+        // 填加节点时显示的默认文本．
+        type: String,
+        default: '新增节点'
+        },
+        depth: {
+        type: Number,
+        default: 0
+        }
     },
     computed: {
+        increaseDepth() {
+            return this.depth + 1;
+        },
         newData: {
             // getter
             get() {
