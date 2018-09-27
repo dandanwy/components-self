@@ -10,6 +10,7 @@ import controller from '@/views/dashboard/Index'
 import animate1 from '@/views/animate/list1'
 import echarts from '@/views/echarts/demo'
 import paper from '@/views/paper'
+import InfiniteMenu from '@/views/InfiniteMenu'
 
 Vue.use(Router)
 
@@ -64,6 +65,11 @@ export default new Router({
       path: '/paper',
       name:'paper',
       component: paper
+    },
+    {
+      path: '/InfiniteMenu',
+      name:'InfiniteMenu',
+      component: InfiniteMenu
     }
   ]
 })

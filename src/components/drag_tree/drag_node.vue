@@ -1,5 +1,9 @@
 <template>
-    <div :style='styleObj' :draggable='isDraggable' @drag.stop='drag' @dragstart.stop='dragStart' @dragover.stop='dragOver' @dragenter.stop='dragEnter' @dragleave.stop='dragLeave' @drop.stop='drop' @dragend.stop='dragEnd' class='dnd-container'>
+    <div :style='styleObj' :draggable='isDraggable' 
+        @drag.stop='drag' @dragstart.stop='dragStart' 
+        @dragover.stop='dragOver' @dragenter.stop='dragEnter' 
+        @dragleave.stop='dragLeave' @drop.stop='drop' @dragend.stop='dragEnd' 
+        class='dnd-container'>
         <div :class='{"is-clicked": isClicked,"is-hover":isHover}' @click="toggle" @mouseover='mouseOver' @mouseout='mouseOut' @dblclick="changeType">
             <div class='treeNodeText' :id='model.id' :style="{ 'padding-left': (this.depth - 1) * 1.5 + 'rem' }">
                 <span :class="[isClicked ? 'nodeClicked' : '','vue-drag-node-icon']"></span>
