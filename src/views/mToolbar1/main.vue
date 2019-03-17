@@ -9,7 +9,7 @@
 </template>
 
 <script>
-    import mtoolbar from '../../components/mPanel/mToolbar';
+    import mtoolbar from '../../components/awesome/mPanel/mToolbar';
     import config from './config';
     export default {
         components: {

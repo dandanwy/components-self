@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/components/Index'
-import CountUp from '@/components/countup'
-import Grid from '@/router/grid.vue'
+import Index from '@/views/Index'
+import CountUp from '@/components/awesome/countup'
 import mQuery1 from '@/views/mQuery1'
 import mToolbar1 from '@/views/mToolbar1'
 import dragTree from '@/views/drag-tree'
@@ -18,18 +17,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Index',
+      name: '首页',
       component: Index
     },
     {
       path: '/countup',
       name: 'CountUp',
       component: CountUp
-    },
-    {
-        path: '/grid',
-        name:'Grid',
-        component: Grid
     },
     {
       path: '/mquery1',

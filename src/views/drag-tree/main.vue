@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import dragTree from '../../components/drag_tree/index'
+import dragTree from '../../components/awesome/drag_tree/index'
 export default {
     components: {
         dragTree

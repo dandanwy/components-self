@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import mquery from '../../components/mPanel/mQuery';
+import mquery from '../../components/awesome/mPanel/mQuery';
 import config from './config'
 export default {
     components: {

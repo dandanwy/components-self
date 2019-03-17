@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import infiniteMenu from '../../components/InfiniteMenu/InfiniteMenu'
+import infiniteMenu from '../../components/awesome/InfiniteMenu/InfiniteMenu'
 export default {
     data () {
         return {

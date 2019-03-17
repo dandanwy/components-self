@@ -141,7 +141,7 @@
 </template>
 
 <script>
-import paper from '../../components/paper/paper'
+import paper from '../../components/awesome/paper/paper'
 export default {
     components: {
         paper

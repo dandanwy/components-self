@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
-    <div class="components">
+    <!-- <div class="components">
       <ul>
         <li><router-link to="/countup">countup</router-link></li>
         <li><router-link to="/mquery1">mQuery1</router-link></li>
@@ -9,7 +9,7 @@
         <li><router-link to="/dragTree">drag-tree</router-link></li>
         <li><router-link to="/InfiniteMenu">tree</router-link></li>
       </ul>
-    </div>
+    </div> -->
     <router-view></router-view>
   </div>
 </template>
